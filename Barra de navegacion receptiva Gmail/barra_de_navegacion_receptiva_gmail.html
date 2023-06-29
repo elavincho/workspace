@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+    
+    <!-- box icon cdn  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="estilo_barra_de_navegacion_receptiva_gmail.css">
+</head>
+<body>
+    <!-- container  -->
+    <div class="container flex">
+
+        <!-- menu icon  -->
+        <div class="menu-toggle">
+            <i class='bx bx-menu menu-icon'></i>
+        </div>
+
+        <!-- mode change icon  -->
+        <div class="mode-change">
+            <i class='bx bx-sun mode-change-icon' ></i>
+        </div>
+
+        <!-- side nav  -->
+        <div class="side-nav">
+            <!-- logo section  -->
+            <div class="logo-section flex">
+                <img src="logo.svg" alt="">
+                <span class="item-txt">
+                    Gmail 4.0
+                </span>
+            </div>
+
+
+            <!-- compose btn section  -->
+            <div class="compose-section flex">
+                <button class="compose-btn">
+                    <span class="item-icon">
+                        <i class='bx bx-edit-alt' ></i>
+                    </span>
+                    <span class="item-txt">
+                        Redactar
+                    </span>
+                </button>
+                <span class="divider"></span>
+            </div>
+
+            <!-- nav menu  -->
+            <div class="nav-menu">
+
+                <!-- main nav  -->
+                <ul class="nav main-nav flex">
+                    <li class="nav-item">
+                        <span class="item-icon">
+                            <i class='bx bx-download'></i>
+                        </span>
+                        <span class="item-txt">
+                            Recibidos
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="item-icon">
+                            <i class='bx bxs-time-five' ></i>
+                        </span>
+                        <span class="item-txt">
+                            Pospuestos
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="item-icon">
+                            <i class='bx bxs-paper-plane' ></i>
+                        </span>
+                        <span class="item-txt">
+                            Enviados
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="item-icon">
+                            <i class='bx bx-file-blank' ></i>
+                        </span>
+                        <span class="item-txt">
+                            Borradores
+                        </span>
+                    </li>
+                    <li class="nav-item more-toggle">
+                        <span class="item-icon">
+                            <i class='bx bxs-chevron-down'></i>
+                        </span>
+                        <span class="item-txt">
+                            Más
+                        </span>
+                    </li>
+
+
+                    <!-- secondary nav  -->
+                    <ul class="nav secondary-nav flex">
+                        <li class="nav-item">
+                            <span class="item-icon">
+                                <i class='bx bx-chat' ></i>
+                            </span>
+                            <span class="item-txt">
+                                Chat
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <span class="item-icon">
+                                <i class='bx bx-calendar' ></i>
+                            </span>
+                            <span class="item-txt">
+                                Programados
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <span class="item-icon">
+                                <i class='bx bx-envelope' ></i>
+                            </span>
+                            <span class="item-txt">
+                                Todos
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <span class="item-icon">
+                                <i class='bx bxs-error-circle' ></i>
+                            </span>
+                            <span class="item-txt">
+                                Spam
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <span class="item-icon">
+                                <i class='bx bx-trash' ></i>
+                            </span>
+                            <span class="item-txt">
+                                Eliminados
+                            </span>
+                        </li>
+
+                    </ul>
+                </ul>
+            </div>
+
+            <!-- side nav bottom  -->
+            <div class="bottom-section">
+                <span class="divider"></span>
+                <ul class="nav flex">
+                    <li class="nav-item">
+                        <span class="item-icon">
+                            <i class='bx bx-cog' ></i>
+                        </span>
+                        <span class="item-txt">
+                            Gestionar Etiquetas
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- hero section  -->
+        <div class="hero-section flex">
+            <div class="content">
+                <h3 class="content-header">
+                    Steve Jobs.
+                </h3>
+                <p class="content-body">
+                    “Tienes que confiar en algo: tu instinto, el destino, la vida, el karma, en lo que sea. Porque creer que los puntos se unirán te dará la confianza de seguir lo que te dicta el corazón”.
+                </p>
+            </div>
+            <div class="content">
+                <h3 class="content-header">
+                    Steve Jobs.
+                </h3>
+                <p class="content-body">
+                    “Lo más importante: tengan el coraje de seguir su corazón y su intuición. De algún modo, ellos ya saben en qué se van a convertir”.
+                </p>
+            </div>
+            <div class="content">
+                <h3 class="content-header">
+                    Steve Jobs.
+                </h3>
+                <p class="content-body">
+                    “Tu trabajo va a suponer gran parte de tu vida, y la única forma de estar totalmente satisfecho es haciendo algo que creas que es un gran trabajo. Y la única forma de hacer un gran trabajo es hacer lo que amas. Si todavía no lo has encontrado, sigue buscando. No te conformes”.
+                    Piensa Diferente.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- custom js file  -->
+    <script src="index.js"></script>
+</body>
+</html>
